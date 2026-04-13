@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XGcB/lAflbeJGbNR7m+bctAxynNPNpJI3HsWlDhnMA34niNmAOMp4uaLM4g+vz+w813rl0zMsfB93PSGM9fiwg==",
+  "success": true,
+  "projectFilePath": "/tmp/WatchPartyForEmby/WatchPartyForEmby.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/mediabrowser.common/4.8.0.80/mediabrowser.common.4.8.0.80.nupkg.sha512",
+    "/root/.nuget/packages/mediabrowser.server.core/4.8.0.80/mediabrowser.server.core.4.8.0.80.nupkg.sha512"
+  ],
+  "logs": []
+}
