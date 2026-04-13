@@ -23,7 +23,6 @@
     <EmbeddedResource Include="Configuration\ui.js" />
     <EmbeddedResource Include="Configuration\partyManager.js" />
     <EmbeddedResource Include="images\logo.jpg" />
-    <EmbeddedResource Include="images\donate.png" />
   </ItemGroup>
 
   <ItemGroup>

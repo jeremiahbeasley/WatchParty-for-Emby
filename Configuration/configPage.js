@@ -1014,24 +1014,6 @@ define(['baseView', 'loading', 'toast', 'emby-input', 'emby-button', 'emby-check
 
                 loading.hide();
                 
-                // Load donate image
-                const donateImg = view.querySelector('#donateImage');
-                if (donateImg && !donateImg.src) {
-                    fetch(ApiClient.getUrl('WatchPartyForEmby/Images/donate.png'), {
-                        headers: {
-                            'X-Emby-Token': ApiClient.accessToken()
-                        },
-                        cache: 'force-cache'
-                    })
-                    .then(response => response.blob())
-                    .then(blob => {
-                        const objectUrl = URL.createObjectURL(blob);
-                        donateImg.src = objectUrl;
-                    })
-                    .catch(error => {
-                        console.error('Failed to load donate image:', error);
-                    });
-                }
             }).catch(() => {
                 loading.hide();
                 toast({ type: 'error', text: 'Error loading configuration.' });
